@@ -1,5 +1,5 @@
 #!/bin/bash
-# Level 4: Strict Deny All, Allow Only HTTPS
+# Level 4: Strict Deny All, Allows Only HTTPS and SSH
 
 # Ask user if they want to make a backup before resetting UFW
 
@@ -19,6 +19,8 @@ sudo ufw default allow outgoing
 
 # Allow only HTTPS
 sudo ufw allow https
+# Allow SSh
+ufw allow ssh
 
 # Enable UFW
 sudo ufw enable
