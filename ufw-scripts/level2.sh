@@ -1,5 +1,5 @@
 #!/bin/bash
-# Level 2: Allow HTTP/HTTPS, SSH, And Deny Everything Else
+# Level 2: Allow HTTP/HTTPS, SSH, And Allow Incoming Traffic
 
 # Ask user if they want to make a backup before resetting UFW
 
@@ -14,7 +14,7 @@ fi
 sudo ufw reset
 
 # Default deny all incoming and allow all outgoing
-ufw default deny incoming
+ufw default allow incoming
 ufw default allow outgoing
 
 # Allow HTTP and HTTPS
