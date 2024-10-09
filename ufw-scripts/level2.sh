@@ -21,6 +21,9 @@ ufw default allow outgoing
 ufw allow http
 ufw allow https
 
+# Allow SSH
+ufw allow ssh
+
 # Enable UFW
 sudo ufw enable
 
