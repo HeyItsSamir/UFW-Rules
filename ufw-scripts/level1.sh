@@ -1,5 +1,5 @@
 #!/bin/bash
-# Level 1: Basic Allow All
+# Level 1: Basic - Allow All
 
 # Ask user if they want to make a backup before resetting UFW
 
