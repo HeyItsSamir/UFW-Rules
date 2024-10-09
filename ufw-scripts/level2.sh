@@ -1,5 +1,5 @@
 #!/bin/bash
-# Level 2: Allow HTTP/HTTPS, Deny All Else
+# Level 2: Allow HTTP/HTTPS, SSH, And Deny Everything Else
 
 # Ask user if they want to make a backup before resetting UFW
 
