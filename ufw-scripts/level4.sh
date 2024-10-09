@@ -1,5 +1,5 @@
 #!/bin/bash
-# Level 4: Strict Deny All, Allows Only HTTPS and SSH
+# Level 4: Very Strict - Deny All, Allows Only HTTPS and SSH
 
 # Ask user if they want to make a backup before resetting UFW
 
