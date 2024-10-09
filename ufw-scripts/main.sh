@@ -57,4 +57,16 @@ case $log_choice in
         ;;
 esac
 
+# Ask user if they want to make a backup before resetting UFW
+
+read -p "Do you want to make a backup of the current UFW rules before resetting? (y/n): " backup_choice
+
+if [ "$backup_choice" == "y" ]; then
+    sudo ufw status > ~/ufw-rules.backup
+    echo "Backup created at ~/ufw-rules.backup"
+fi
+
+# Reset UFW
+sudo ufw reset
+
 echo "Configuration applied successfully."
