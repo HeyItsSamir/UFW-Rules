@@ -11,16 +11,16 @@ read -p "Enter your choice: " choice
 
 case $choice in
     1)
-        ./level1.sh
+        ./ufw.scripts/level1.sh
         ;;
     2)
-        ./level2.sh
+        ./ufw.scripts/level2.sh
         ;;
     3)
-        ./level3.sh
+        ./ufw.scripts/level3.sh
         ;;
     4)
-        ./level4.sh
+        ./ufw.scripts/level4.sh
         ;;
     *)
         echo "Invalid choice"
