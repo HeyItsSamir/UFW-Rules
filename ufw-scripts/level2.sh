@@ -1,5 +1,5 @@
 #!/bin/bash
-# Level 2: Allow HTTP/HTTPS, SSH, And Allow Incoming Traffic
+# Level 2: Moderate - Allow HTTP/HTTPS, SSH, And Allow Incoming Traffic
 
 # Ask user if they want to make a backup before resetting UFW
 
